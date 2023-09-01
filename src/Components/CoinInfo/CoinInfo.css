@@ -1,0 +1,48 @@
+.coininfo-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px;
+    gap: 20px;
+    
+}
+.coininfo-image{
+    width: 80%;
+}
+
+.coininfo-name{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    
+}
+.coininfo-details{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: larger;
+    font-size: 20px;
+}
+
+.coininfo-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: -webkit-fill-available;
+}
+.stats{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left:0 auto;
+}
+.stats span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width:770px) {
+    
+    .coininfo-details{
+        margin-left: 0;
+    }
+}

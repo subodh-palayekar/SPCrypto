@@ -1,0 +1,108 @@
+.banner-container{
+    /* background-color: yellow; */
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+  
+
+}
+.back-img{
+    /* background-image: url("../../Assets/bg.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.banner-left{
+    text-align: center;
+    color: white;
+    /* background-color: red; */
+    max-width: 600px;
+    
+}
+
+
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px ;
+    height: 600px;
+    /* background-color: green; */
+    animation: move 2s infinite alternate;
+    
+}
+.banner-img{
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(174, 0, 255, 0.5);
+    
+}
+
+.image-holder{
+    align-self: center;
+}
+
+/* styles.css */
+
+/* Style for the banner title */
+.banner-left-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #ff3cf2; /* Adjust color as needed */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Style for the sub-heading */
+  .sub-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white; /* Adjust color as needed */
+  }
+
+  @keyframes blink {
+    0% {
+      box-shadow: 0 0 80px rgba(174, 0, 255, 0.731);
+    }
+    100% {
+      box-shadow: 0 0 80px rgba(174, 0, 255, 0.2);
+    }
+  }
+
+  @keyframes move {
+    0% {
+      padding-bottom: 0;
+    }
+    100% {
+      padding-bottom: 30px;
+    }
+    0% {
+      padding-bottom: 0;
+    }
+  }
+  
+
+  @media (max-width:500px) {
+    
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-bottom: 60px;
+    }
+    .banner-img{
+        margin:0;
+        width: 250px;
+    }
+    .banner-right{
+        height: 300px;
+    }
+  }
+
+  

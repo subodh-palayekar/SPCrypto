@@ -1,0 +1,7 @@
+.credits{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight:300 ;
+}

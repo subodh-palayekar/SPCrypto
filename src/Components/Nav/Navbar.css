@@ -1,0 +1,51 @@
+
+.navbar {
+    margin: 10px 0;
+    background-color:transparent;
+    padding: 0 40px;
+    overflow: hidden;
+    height: 60px; /* Increased height */
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    
+  }
+  .navbar-logo img{
+    width: 50px;
+  }
+  
+
+  
+  #currency {
+    padding: 8px;
+    border: none;
+    background-color: #9e43ff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  #currency option {
+    background-color:  #9e43ff;
+    color:white;
+  }
+  
+  #currency::-ms-expand {
+    display: none;
+  }
+  
+  #currency:hover,
+  #currency:focus {
+    background-color:  #8a3cde;;
+  }
+
+  
+  

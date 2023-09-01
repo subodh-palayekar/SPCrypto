@@ -1,0 +1,35 @@
+.coinpage-container{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.sidebar-coininfo{
+    width: 30%;
+    border-right: 2px solid white;
+}
+.sidebar-coinchart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+.sidebar-coinchart{
+    width:100%;
+}
+
+@media (max-width:770px) {
+    
+    .coinpage-container{
+        flex-direction: column;
+    }
+    .sidebar-coininfo{
+        width: 100%;
+        border-right:none;
+    }
+    .sidebar-coinchart{
+      
+        width: 100%;
+    }
+}

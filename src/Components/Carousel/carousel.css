@@ -1,0 +1,44 @@
+.coin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.coin-img{
+    width: 100px;
+}
+
+.coin-symbol{
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.container-carousel{
+
+    max-width: calc(100vw - 10%);  
+    margin: 0 auto;
+    
+}
+.carousel-title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight:800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: yellow;
+    
+
+}
+
+.coin-price{
+    font-size: large;
+    font-weight: 700;
+}
