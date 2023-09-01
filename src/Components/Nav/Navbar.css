@@ -47,5 +47,17 @@
     background-color:  #8a3cde;;
   }
 
+  @media (max-width:500px){
+
+    .navbar-logo {
+      padding: 15px 0px;
+      margin-left: -25px;
+      
+    }
+    .navbar{
+      padding-right: 20px;
+    }
+  }
+
   
   
