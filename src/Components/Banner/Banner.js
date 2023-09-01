@@ -2,6 +2,7 @@ import React from 'react'
 import './Banner.css'
 import Slider from '../Carousel/Slider'
 import Navbar from '../Nav/Navbar'
+import bannerlogo from '../../Assets/bannerlogo.png'
 
 const Banner = () => {
   return (
@@ -16,7 +17,7 @@ const Banner = () => {
         <div className="banner-right">
             <img
               className="banner-img"
-              src="http://wp.dreamitsolution.net/cryptozen/wp-content/uploads/2022/04/one.png "
+              src={bannerlogo}
               alt="crypto"
             />
         </div>
