@@ -1,6 +1,3 @@
-Certainly! Here's the content you provided converted into a README file format:
-
----
 
 # Dynamic Cryptocurrency Website - React
 
